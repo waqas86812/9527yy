@@ -1,0 +1,52 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* .line-contact {
+    display: flex;
+} */
+
+.line-contact-link {
+    display: flex;
+}
+
+.contactbar {
+    display: flex;
+    border-radius:5px;
+}
+
+/* Breakpoints / Making Responsive */
+@media (max-width: 1080px) {
+    .nav {
+        padding: 15px;
+    }
+    section{
+        padding: 3rem 0 2rem;
+    }
+    .container{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .shop {
+        margin-top: 2rem !important;
+        margin-bottom: 3rem !important;
+    }
+}
+@media (max-width: 400px) {
+    .nav {
+        padding: 11px;
+    }
+    .logo {
+        font-size: 1rem;
+    }
+    .cart {
+        width: 320px;
+    }
+}
+@media (max-width: 360px) {
+    .shop {
+        margin-top: 1rem !important;
+    }
+    .cart {
+        width: 280px;
+    }
+}
